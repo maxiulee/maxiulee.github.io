@@ -5,12 +5,8 @@ title: Mits and Pi - Blogs!
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
-	  {% for post in site.posts offset: 0 limit: 10 %}
-    		<h2>
-		 <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
-    		</h2>
-    		{{ post.date | date_to_string }}
-    		{{ post.content }}
-		<hr />
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
+	  
 	</ul>
