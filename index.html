@@ -12,9 +12,9 @@ title: Mits and Pi
 		
 	{% for post in site.posts %}
 	 <li>
-	  <a href="{{ post.url }}">{{ post.title }}</a>
-	  <span>{{ post.date | date_to_string }}</span>
-	  {{ post.excerpt }}
+	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	  <p><span>{{ post.date | date_to_string }}</span></p>
+	  <p>{{ post.excerpt }}</p>
 	 </li>
 	{% endfor %}
 	
