@@ -8,6 +8,8 @@ title: Mits and Pi
 	
 	<h2>Latest Posts: </h2>
 	
+	<ul class='posts'>
+		
 	{% for post in site.posts %}
 	 <li>
 	  <a href="{{ post.url }}">{{ post.title }}</a>
@@ -15,6 +17,8 @@ title: Mits and Pi
 	  {{ post.excerpt }}
 	 </li>
 	{% endfor %}
+	
+	</ul>
 	
 </div><!-- /.blurb -->
 		
