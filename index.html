@@ -5,8 +5,16 @@ title: Mits and Pi
 <div class="blurb">
 	<h1>Welcome to Mits and Pi!</h1>
 	<blockquote><img src="/images/logo.PNG"></blockquote>
-	<p> I am a mathematics student from the University of Waterloo. <a href="/about">Read more about me...</a></p>
-	<p> This site will feature my personal projects and my blog (coming soon!) featuring long-form
-	explanations about various mathematics topics.</p>
+	
+	<h1>Latest Posts: </h1>
+	
+	{% for post in site.posts %}
+	 <li>
+	  <a href="{{ post.url }}">{{ post.title }}</a>
+	  <span>{{ post.date | date_to_string }}</span>
+	  {{ post.excerpt }}
+	 </li>
+	{% endfor %}
+	
 </div><!-- /.blurb -->
 		
