@@ -14,4 +14,11 @@ Someone told me before that to draw a good circle you need a compass, but the te
 
 ![Bad Circle](/images/circle/badcircle.png)
 
-I looked around at the other kids around me
+I looked around at the other kids and their circles don't look much better. With one corner looking like a squished oval and another almost like a square, how are we supposed to count how many grids the circle covers? If we can barely even *draw* a circle, how can *anyone* figure out how big it is? 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Not surprisingly, I wasn't the only one scratching my head about how big a circle is. Even the Ancient Greeks, who were masters of drawing perfect shapes, had a great deal of trouble figuring out a circle's area. To see why, let's take a step back and see how we have derived the area of other figures.
+
+First up is the square. If you draw a 
+
