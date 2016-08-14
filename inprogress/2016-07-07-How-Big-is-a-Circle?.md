@@ -32,9 +32,24 @@ Hence the area of a parallelogram is A=bh. From there on, we can show that a tri
 
 ![triangle](/images/circle/triangle.png)
 
-Hence the area of any triangle is A=bh/2, where base and height are labelled in the diagram. This is a very powerful result: since *any* shape enclosed by straight lines can be broken up into triangles, this gives us a fool-proof (although tedious) method of finding the area of any such shape.
+Hence the area of any triangle is A=bh/2, where base and height are labelled in the diagram. Once we found the area of a triangle, it's game over for all polygons, since every polygon can be broken up into triangular pieces. Hence this is an incredibly powerful result.
 
 ![polygon](/images/circle/polygon.png)
 
-In summary, the main method we used so far to measure complicated shapes is to break them up into smaller, simpler pieces. 
+In summary, the main method we used so far to measure complicated shapes is to break them up into smaller, simpler pieces. Once we can deconstruct or rearrange a complicated shape into pieces that we know how to calculate, we can solve the original area. However, this approach falls flat when we try to use it on the circle.
 
+The big problem is that the perimeter of a circle is not a straight line, and all of the simple pieces we figured out so far have straight boundaries. There is also no obvious way of breaking apart a circle and rearranging them into one of the nicer shapes we figured out before. However, this deconstruction approach can still give us some intuitive insight on the size of a circle.
+
+![badfit](/images/circle/badfit.png)
+
+<h2>The Slicing Argument</h2> 
+
+Let's say you are having a pizza party with seven of your friends. You cut the pizza into 8 equal pieces. But instead of distributing to your friends, you get the idea of rearranging these pieces to different shapes first. So you "flip" every other piece such that the first piece's tip is adjacent to the second piece's crust. Then you push the reorganized pieces together into a new shape, and realize that it kind of looks like a "wavy" parallelogram. If only the crusts were straight lines, it would be a parallelogram!
+
+![8pizza](/images/circle/8pizza.png)
+
+So then you cut the pizza into 16 pieces instead, and rearrange them into a wavy parallelogram using the same method. This time, you notices that while the two long opposing sides are still the wavy crusts, they are much straighter than the 8-piece version. If you cut the pizza into 32 pieces, the long sides (crusts) would look straighter still. In summary, the more slices you make, the straighter the two crust sides will become. 
+
+[!16pizzacomp](/images/circle/16pizzacomp.png)
+
+At each stage, we can approximate the area of the rearranged pizza ("wavy parallelogram") using a parallelogram defined by replacing the wavy crust sides with a pair of straight lines joining the same sets of endpoints, as shown in the above figure. Since the more slices we make, the straighter the two wavy crust sides will become, the straight line approximation will become closer and closer to the real wavy figure. Hence if we make many. many slices such that 
