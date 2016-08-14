@@ -52,4 +52,6 @@ So then you cut the pizza into 16 pieces instead, and rearrange them into a wavy
 
 [!16pizzacomp](/images/circle/16pizzacomp.png)
 
-At each stage, we can approximate the area of the rearranged pizza ("wavy parallelogram") using a parallelogram defined by replacing the wavy crust sides with a pair of straight lines joining the same sets of endpoints, as shown in the above figure. Since the more slices we make, the straighter the two wavy crust sides will become, the straight line approximation will become closer and closer to the real wavy figure. Hence if we make many. many slices such that 
+At each stage, we can approximate the area of the rearranged pizza ("wavy parallelogram") using a parallelogram defined by replacing the wavy crust sides with a pair of straight lines joining the same sets of endpoints, as shown in the above figure. Since the more slices we make, the straighter the two wavy crust sides will become, the straight line approximation will become closer and closer to the real wavy figure. Hence if we make many. many slices such that the resulting wavy parallelogram is almost a straight parallelogram, then the area of the wavy parallelogram (and thus the circle) is approximately the same as the area of the straight approximation. If we make infinitely many slices, there would be no difference between the resulting wavy parallelogram and its straight approximation.
+
+Another thing to notice is that the more slices we make, the more *rectangular* the wavy parallelograms become. 
