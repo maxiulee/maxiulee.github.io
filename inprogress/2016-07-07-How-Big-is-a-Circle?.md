@@ -42,6 +42,10 @@ The big problem is that the perimeter of a circle is not a straight line, and al
 
 ![badfit](/images/circle/badfit.png)
 
+<h2>Two Parts of Mathematical Discovery</h2>
+
+
+
 <h2>The Slicing Argument</h2> 
 
 Let's say you are having a pizza party with seven of your friends. You cut the pizza into 8 equal pieces. But instead of distributing to your friends, you get the idea of rearranging these pieces to different shapes first. So you "flip" every other piece such that the first piece's tip is adjacent to the second piece's crust. Then you push the reorganized pieces together into a new shape, and realize that it kind of looks like a "wavy" parallelogram. If only the crusts were straight lines, it would be a parallelogram!
